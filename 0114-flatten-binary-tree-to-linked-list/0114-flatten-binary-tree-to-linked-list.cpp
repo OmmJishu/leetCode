@@ -25,7 +25,6 @@ public:
             return;
         
         TreeNode* temp = res[0];
-        TreeNode* temp2 = temp;
         temp->left = NULL;
         temp->right = NULL;
         
