@@ -1,0 +1,19 @@
+class Solution {
+public:
+    string smallestString(string s) {
+        int count=0;
+        for(int i = 0; i<s.size(); i++){
+            if(s[i]>'a'){
+                --s[i];
+                count++;
+            }
+            else if(count > 0){
+                break;
+            }
+        }
+        if(count==0){
+            s[s.size()-1]='z';
+        }
+        return s;
+    }
+};
