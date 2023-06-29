@@ -4,8 +4,8 @@ public:
         vector<string> res;
         
         for(int i = 1; i<n; i++){
-            for(int j = 2; j<=n; j++){
-                if(gcd(i,j) == 1 && i/j == 0)
+            for(int j = i+1; j<=n; j++){
+                if(gcd(i,j) == 1)
                     res.push_back(to_string(i) + '/' + to_string(j));
             }
         }
