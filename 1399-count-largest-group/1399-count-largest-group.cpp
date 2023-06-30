@@ -1,15 +1,13 @@
 class Solution {
 public:
     int countLargestGroup(int n) {
-        vector<int> arr(n);
-        for(int i = 1; i<=n; i++)
-            arr[i-1] = digitSum(i);
         
         unordered_map<int,int> mp;
         int mxFreq = INT_MIN;
-        for(auto it : arr){
-            mp[it]++;
-            mxFreq = max(mxFreq,mp[it]);
+        for(int i = 1; i<=n; i++){
+            int a = digitSum(i);
+            mp[a]++;
+            mxFreq = max(mxFreq,mp[a]);
         }
         
         int count = 0;
