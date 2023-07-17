@@ -16,13 +16,10 @@ public:
             while(it.first--)
                 res.push_back(it.second);
         }
-        
-        reverse(res.begin(),res.end());
-        for(int i = 0; i<k; i++)
-            res.pop_back();
-        
-        set<int> st(res.begin(),res.end());
-        
+        store.clear();
+        mp.clear();
+        set<int> st(res.begin()+k,res.end());
+        res.clear();
         return (int)st.size();
     }
 };
