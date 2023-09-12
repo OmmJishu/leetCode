@@ -20,7 +20,7 @@ public:
                 ans += curr - temp[i]; 
             }
         }
-
+       
         return ans;
     }
 };
