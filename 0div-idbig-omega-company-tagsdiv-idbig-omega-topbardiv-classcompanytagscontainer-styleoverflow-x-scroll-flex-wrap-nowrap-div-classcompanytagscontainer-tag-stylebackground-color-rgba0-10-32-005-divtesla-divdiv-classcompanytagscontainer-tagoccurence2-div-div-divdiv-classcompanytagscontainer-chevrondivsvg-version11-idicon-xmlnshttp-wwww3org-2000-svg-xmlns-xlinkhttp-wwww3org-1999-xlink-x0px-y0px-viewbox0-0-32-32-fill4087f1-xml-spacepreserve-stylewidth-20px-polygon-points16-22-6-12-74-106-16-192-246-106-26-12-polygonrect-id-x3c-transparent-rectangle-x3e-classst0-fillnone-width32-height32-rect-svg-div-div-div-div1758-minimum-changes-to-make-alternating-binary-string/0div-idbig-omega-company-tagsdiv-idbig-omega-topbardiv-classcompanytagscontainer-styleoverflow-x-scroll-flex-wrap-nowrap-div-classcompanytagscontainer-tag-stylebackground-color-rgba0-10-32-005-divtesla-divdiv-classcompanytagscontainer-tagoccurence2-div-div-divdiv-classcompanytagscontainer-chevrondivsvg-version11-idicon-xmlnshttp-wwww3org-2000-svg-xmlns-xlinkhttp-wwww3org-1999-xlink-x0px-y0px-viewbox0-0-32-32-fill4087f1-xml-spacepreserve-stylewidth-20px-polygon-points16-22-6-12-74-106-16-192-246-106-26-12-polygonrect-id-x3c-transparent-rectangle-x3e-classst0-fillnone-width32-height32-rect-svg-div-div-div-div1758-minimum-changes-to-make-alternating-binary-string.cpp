@@ -2,6 +2,7 @@ class Solution {
 public:
     int minOperations(string s) {
         int cnt = 0, n = s.size(), ans = INT_MAX;
+        
         vector<char> arr(n,'0');
         for(int i = 1; i<n; i+=2)
             arr[i] = '1';
