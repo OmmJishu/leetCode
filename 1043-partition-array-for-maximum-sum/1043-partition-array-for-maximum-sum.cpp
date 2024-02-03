@@ -23,8 +23,26 @@ public:
         int n = arr.size();
         vector<int> dp(n+1,-1);
         
-        int num = solve(0,arr,dp,k);
+        // Memoization
+        // int num = solve(0,arr,dp,k);
+        // return num;
         
-        return num;
+        
+        // Tabulization
+        
+        dp[n] = 0;
+        for(int idx = n-1; idx>=0; idx--){
+            int currMaxi = 0;
+            
+            for(int j = idx; j<min(n,idx+k); j++){
+                currMaxi = max(currMaxi,arr[j]);
+                int sum = currMaxi*(j-idx+1) + solve(j+1,arr,dp,k);
+                res = max(res, sum);
+            }
+
+            dp[idx] = res;
+        }
+        
+        return dp[0];
     }
 };
