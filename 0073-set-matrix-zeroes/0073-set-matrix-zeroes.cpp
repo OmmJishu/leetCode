@@ -14,15 +14,18 @@ public:
                 }
             }
         }
+        
         for(auto it : a){
             for(int j = 0; j<column; j++){
                 matrix[it][j] = 0;
             }
         }
+        
         for(auto it : b){
             for(int j = 0; j<row; j++){
                 matrix[j][it] = 0;
             }
         }
+        
     }
 };
