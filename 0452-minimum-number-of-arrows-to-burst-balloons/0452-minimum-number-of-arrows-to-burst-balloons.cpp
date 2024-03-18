@@ -5,8 +5,8 @@ public:
             return a[1] < b[1]; // Sort by ending points
         });
         
-        for(auto it : points)
-            cout<<it[0]<<" "<<it[1]<<"    ";
+        // for(auto it : points)
+        //     cout<<it[0]<<" "<<it[1]<<"    ";
 
         int arrows = 1;
         int end = points[0][1];
