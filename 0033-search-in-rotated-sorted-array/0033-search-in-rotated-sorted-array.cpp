@@ -10,8 +10,8 @@ public:
                 return mid;
             
             if(nums[start] <= nums[mid]){
-                if(target <= nums[mid] && target>=nums[start])
-                    end = end-1;
+                if(target>=nums[start] && target <= nums[mid])
+                    end = mid;
                 else
                     start = mid+1;
             }
