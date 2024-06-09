@@ -4,7 +4,7 @@ public:
         // Creating Adjency list
         vector<int> adj[numCourses];
         for(auto it : prerequisites)
-            adj[it[0]].push_back(it[1]);
+            adj[it[1]].push_back(it[0]);
         
         // if there is a cyclic dependencies then It is NOT possible
         
