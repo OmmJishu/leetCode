@@ -1,7 +1,6 @@
 class Solution {
 public:
     string convert(string s, int numRows) {
-        cout<<s.size();
         if(numRows <= 1) return s;
         vector<string> v(numRows,"");
         int i = 0, j = 0;
