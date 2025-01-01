@@ -11,4 +11,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/OmmJishu/leetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+## String
+|  |
+| ------- |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/OmmJishu/leetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+## Prefix Sum
+|  |
+| ------- |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/OmmJishu/leetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 <!---LeetCode Topics End-->
