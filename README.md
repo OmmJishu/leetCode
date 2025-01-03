@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/OmmJishu/leetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [2358-number-of-ways-to-split-array](https://github.com/OmmJishu/leetCode/tree/master/2358-number-of-ways-to-split-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -19,4 +20,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/OmmJishu/leetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2358-number-of-ways-to-split-array](https://github.com/OmmJishu/leetCode/tree/master/2358-number-of-ways-to-split-array) |
 <!---LeetCode Topics End-->
